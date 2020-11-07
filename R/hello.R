@@ -1,3 +1,5 @@
 hello <- function() {
-  print("Hello, world!")
+  print("Bye Bye, world!")
+  #This is auseless function
+  # Delete please
 }
