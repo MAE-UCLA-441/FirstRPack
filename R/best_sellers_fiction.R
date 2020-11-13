@@ -18,5 +18,5 @@ books = initialquery$results$books
 ###Play around with this dataframe to create your own dataset###
 
 #The title of the books that have dropped in rank from the previous week.
-return(books$title)
+return(books)
 }
