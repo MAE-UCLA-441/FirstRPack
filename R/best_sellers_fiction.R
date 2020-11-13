@@ -14,7 +14,7 @@ URL = paste("https://api.nytimes.com/svc/books/v3/lists/" , date , "/", category
 PATH = paste(URL, "api-key=" , APIkey, sep ="")
 initialquery = jsonlite::fromJSON(PATH)
 
-books = initialquery$results$books
+books = initialquery$results
 ###Play around with this dataframe to create your own dataset###
 
 #The title of the books that have dropped in rank from the previous week.
