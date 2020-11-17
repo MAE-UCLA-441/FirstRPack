@@ -5,7 +5,8 @@
 #'
 #' @return Returns a df w droppe dcolumsn
 #' @export
-#'
+#'# Edits
+
 #' @examples
 #' drop_columns(df, .1)
 drop_columns = function(df, threshold){
